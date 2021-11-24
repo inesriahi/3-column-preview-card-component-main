@@ -49,3 +49,4 @@ Users should be able to:
 
 - Frontend Mentor - [@onshadi](https://www.frontendmentor.io/profile/onshadi)
 - Instagram - [@inesalriahi](https://www.instagram.com/inesalriahi)
+- LinkedIn - [@inesriahi](https://www.linkedin.com/in/inesriahi/)
