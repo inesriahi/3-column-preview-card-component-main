@@ -42,9 +42,6 @@ Users should be able to:
 - Mobile-first workflow
 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-
 ## Author
 
 - Frontend Mentor - [@onshadi](https://www.frontendmentor.io/profile/onshadi)
