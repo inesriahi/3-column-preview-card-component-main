@@ -64,14 +64,14 @@ body {
     gap: 1rem;
 }
 
-.grid-content > .card:first-child {
+.grid-content > .card:nth-child(2) {
     --primary-color: var(--clr-bright-orange);
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
     grid-row: 2;
 }
 
-.grid-content > .card:nth-child(2) {
+.grid-content > .card:nth-child(3) {
     --primary-color: var(--clr-dark-cyan);
     grid-row: 3;
 }
@@ -101,14 +101,14 @@ body {
         padding-block: 0.5rem 2rem;
     }
 
-    .grid-content > .card:first-child {
+    .grid-content > .card:nth-child(2) {
         border-radius: 0;
         border-top-left-radius: var(--border-radius);
         border-bottom-left-radius: var(--border-radius);
         grid-column: 2;
     }
 
-    .grid-content > .card:nth-child(2){
+    .grid-content > .card:nth-child(3){
         grid-column: 3;
     }
 
