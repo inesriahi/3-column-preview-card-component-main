@@ -30,6 +30,16 @@ body {
     overflow: hidden;
 }
 
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
 .grid-content {
     --border-radius: 0.5rem;
     display: grid;
@@ -66,7 +76,7 @@ body {
 }
 
 
-@media (min-width: 23.4375rem) {
+@media (min-width: 36.875rem) {
     .grid-content {
         grid-template-columns: minmax(2rem,1fr) repeat(3, minmax(25%, 17rem)) minmax(2rem,1fr);
         grid-template-rows: 1fr;
